@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Typing Game</title>
+  </head>
+  <body>
+    <div class="all-container">
+      <h1> Japanese Typing Game</h1>
+      <p></p>
+      <div id="game" class="text-container">
+        <label for="inputText">
+        <div class="question">
+          <span id="entered" class="marker"></span>
+          <span id="remained"></span>
+        </label>
+        </div>
+
+        <input type="text" class="text" id="inputText" autofocus />
+      </div>
+      <div id="message" class="text-container hidden">
+        <div class="message">
+          Congratulations! You have done all the typing<br />
+          <button id="replaybtn" class="btn">One more play</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
